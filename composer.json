@@ -1,0 +1,24 @@
+{
+    "name": "juniorpaiva/php-dto",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "junior",
+            "email": "antonioivo.3@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "pestphp/pest": "^3.8",
+        "symfony/console": "^7.2",
+        "mockery/mockery": "^1.6"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
